@@ -10,7 +10,9 @@
 🔍 협업을 통해 각자의 강점을 알아가며 자기 객관화를 통해 같이 고민하고 성장하는 것을 중요하게 생각합니다 <br>
 🗂 개발로 인해 기록하는 것을 시작한 후, 기록하는 습관의 가치를 깨닫고 기술 블로그를 운영하고 있습니다 <br>
 😎 새로운 지식을 익히며 학습하는 것에 몰입하며, 이해한 내용을 정리하는 것에 성취감을 느끼는 편입니다 <br>
- 
+</p>
+
+<p>
  <br>
  <strong>
   <span>
@@ -35,7 +37,10 @@
  &nbsp; 
   <img src="https://camo.githubusercontent.com/abec2da8e99ec505d1113fa838ab8d2c129166b73b2cd36ac780049593b1682f/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f2d52656475782d2532333736344142433f7374796c653d666c61742d737175617265266c6f676f3d5265647578266c6f676f436f6c6f723d7768697465">
  &nbsp; 
-  <br><br>
+  <br>
+</p>
+ 
+<p>
 <strong>🛩 Tools</strong> <br>
   <img src="https://camo.githubusercontent.com/e96231df11043e86a1e70c128b3136b7d5bc61b525b0c1052b929f9e9e977b49/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f2d4769742d2532334630353033323f7374796c653d666c61742d737175617265266c6f676f3d676974266c6f676f436f6c6f723d7768697465">
  &nbsp; 
@@ -43,7 +48,9 @@
  &nbsp; 
   <img src="https://camo.githubusercontent.com/975b95f353dd7c563b95d6766fd188a3a72b6b1ad6e077a22219826a28544023/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f2d4e6f74696f6e2d2532333030303030303f7374796c653d666c61742d737175617265266c6f676f3d4e6f74696f6e266c6f676f436f6c6f723d7768697465">  
  &nbsp; 
-  <br><br>
+  <br>
+</p>
+<p>
 <strong>💡 Contact </strong> <br>
   <a href="mailto:chanyang721@gmail.com">
     <img src="https://camo.githubusercontent.com/2ef144e4945a9d7d6ccfa14e7a90524bf5e8986d6fcc23063b23e4840462d9eb/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f476d61696c2d6431343833363f7374796c653d666c61742d737175617265266c6f676f3d476d61696c266c6f676f436f6c6f723d7768697465266c696e6b3d76696c696b65746831733938406e617665722e636f6d" data-canonical-src="https://img.shields.io/badge/Gmail-d14836?style=flat-square&amp;logo=Gmail&amp;logoColor=white&amp;link=chanyang721@gmail.com" style="max-width:100%;">
@@ -52,9 +59,7 @@
  <a href="https://chanyang721.notion.site/96245a35406f46c5bf28d92056162774">
   <img src="https://camo.githubusercontent.com/c4fd9f4ee2a4ed8cdced3516006627120a571d16b22a695245b222d786dd8bb2/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f2d426c6f672d2532333030303030303f7374796c653d666c61742d737175617265266c6f676f3d4e6f74696f6e266c6f676f436f6c6f723d7768697465" data-canonical-src="https://img.shields.io/badge/Tech%20Blog-11B48A?style=flat-square&amp;logo=Notion&amp;logoColor=white&amp;link=https://bit.ly/2V4am8f" style="max-width:100%;">
   </a>
- 
 </p>
-  
 <!-- 
 ![Node.js](https://img.shields.io/badge/-Node.js-%23339933?style=flat-square&logo=node.js&logoColor=white)
 ![Express](https://img.shields.io/badge/-Express-%23000000?style=flat-square&logo=Express&logoColor=white)<br>
