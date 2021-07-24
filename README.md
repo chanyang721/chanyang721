@@ -13,10 +13,13 @@
  <br>
  <strong>
   <span>
-    <g-emoji class="g-emoji" alias="hammer_and_wrench" fallback src="https://github.githubassets.com/images/icons/emoji/unicode/1f6e0.png">🛠</g-emoji>
-   Tech Stacks  
+   <h3>
+    <g-emoji class="g-emoji" alias="hammer_and_wrench" fallback src="https://github.githubassets.com/images/icons/emoji/unicode/1f6e0.png">
+     🛠
+    </g-emoji>
+    Tech Stacks
+   </h3>
   </span> 
-  <br>
   <img src="https://camo.githubusercontent.com/a6cc479a37daa64533eac8871c1deb0a09a7afba50c2f567bdde00c942a8a39e/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f2d4e6f64652e6a732d2532333333393933333f7374796c653d666c61742d737175617265266c6f676f3d6e6f64652e6a73266c6f676f436f6c6f723d7768697465">
  &nbsp; 
   <img src="https://camo.githubusercontent.com/79fa0b36a0abab7df3d09d88851d7a1206a1acac86fe5409438dcc4f098d040e/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f2d457870726573732d2532333030303030303f7374796c653d666c61742d737175617265266c6f676f3d45787072657373266c6f676f436f6c6f723d7768697465">
@@ -38,7 +41,7 @@
 </p>
  
 <p>
-<strong>🛩 Tools</strong> <br>
+<strong><h3>🛩 Tools</h3></strong>
   <img src="https://camo.githubusercontent.com/e96231df11043e86a1e70c128b3136b7d5bc61b525b0c1052b929f9e9e977b49/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f2d4769742d2532334630353033323f7374796c653d666c61742d737175617265266c6f676f3d676974266c6f676f436f6c6f723d7768697465">
  &nbsp; 
   <img src="https://camo.githubusercontent.com/9a3c8a33b0d36ba5b57ce754e29e96cdd650c5a2f3a1b28104ef93dcfc9fc3e2/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f2d506f73746d616e2d2532334646364333373f7374796c653d666c61742d737175617265266c6f676f3d506f73746d616e266c6f676f436f6c6f723d7768697465">
@@ -48,7 +51,7 @@
   <br>
 </p>
 <p>
-<strong>💡 Contact </strong> <br>
+<strong><h3>💡 Contact</h3></strong>
   <a href="mailto:chanyang721@gmail.com">
     <img src="https://camo.githubusercontent.com/2ef144e4945a9d7d6ccfa14e7a90524bf5e8986d6fcc23063b23e4840462d9eb/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f476d61696c2d6431343833363f7374796c653d666c61742d737175617265266c6f676f3d476d61696c266c6f676f436f6c6f723d7768697465266c696e6b3d76696c696b65746831733938406e617665722e636f6d" data-canonical-src="https://img.shields.io/badge/Gmail-d14836?style=flat-square&amp;logo=Gmail&amp;logoColor=white&amp;link=chanyang721@gmail.com" style="max-width:100%;">
   </a>
