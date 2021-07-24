@@ -1,6 +1,3 @@
-
-
-<p>
 <h2><strong>👋 안녕하세요</strong></h2><br>
 <p> Node.js Backend developer 이찬양입니다 </p>
 <h3>About Me</h3>
