@@ -1,5 +1,5 @@
-<h2><strong>👋 안녕하세요</strong></h2><br>
-<p> Node.js Backend developer 이찬양입니다 </p>
+<h2><strong>👋 안녕하세요</strong></h2>
+<p> Node.js Backend developer 이찬양입니다 </p> 
 <h3>About Me</h3>
 <p>
 👨‍💻 안녕하세요. 저는 Node.js, Express를 주로 다루는 주니어 백엔드 개발자 이찬양입니다 <br>
