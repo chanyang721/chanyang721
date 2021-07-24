@@ -23,15 +23,17 @@ Techs that I've used at least once<br>
   <img src="https://camo.githubusercontent.com/975b95f353dd7c563b95d6766fd188a3a72b6b1ad6e077a22219826a28544023/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f2d4e6f74696f6e2d2532333030303030303f7374796c653d666c61742d737175617265266c6f676f3d4e6f74696f6e266c6f676f436f6c6f723d7768697465">  
   <br>
 Contact <br>
-  <a href="mailto:chanyang721@gmail.com" target="_blank">
+  <a href="mailto:chanyang721@gmail.com">
     <img src="https://camo.githubusercontent.com/2ef144e4945a9d7d6ccfa14e7a90524bf5e8986d6fcc23063b23e4840462d9eb/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f476d61696c2d6431343833363f7374796c653d666c61742d737175617265266c6f676f3d476d61696c266c6f676f436f6c6f723d7768697465266c696e6b3d76696c696b65746831733938406e617665722e636f6d" data-canonical-src="https://img.shields.io/badge/Gmail-d14836?style=flat-square&amp;logo=Gmail&amp;logoColor=white&amp;link=chanyang721@gmail.com" style="max-width:100%;">
   </a>
-  
+ 
+ <a href="https://chanyang721.notion.site/96245a35406f46c5bf28d92056162774">
   <img src="https://camo.githubusercontent.com/c4fd9f4ee2a4ed8cdced3516006627120a571d16b22a695245b222d786dd8bb2/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f2d426c6f672d2532333030303030303f7374796c653d666c61742d737175617265266c6f676f3d4e6f74696f6e266c6f676f436f6c6f723d7768697465" data-canonical-src="https://img.shields.io/badge/Tech%20Blog-11B48A?style=flat-square&amp;logo=Notion&amp;logoColor=white&amp;link=https://bit.ly/2V4am8f" style="max-width:100%;">
-
+  </a>
+ 
 </p>
   
-
+<!-- 
 ![Node.js](https://img.shields.io/badge/-Node.js-%23339933?style=flat-square&logo=node.js&logoColor=white)
 ![Express](https://img.shields.io/badge/-Express-%23000000?style=flat-square&logo=Express&logoColor=white)<br>
 ![AWS](https://img.shields.io/badge/-AWS-%23232F3E?style=flat-square&logo=Amazon%20AWS&logoColor=white)
@@ -43,4 +45,4 @@ Contact <br>
 ![](https://img.shields.io/badge/-Git-%23F05032?style=flat-square&logo=git&logoColor=white)
 ![](https://img.shields.io/badge/-Postman-%23FF6C37?style=flat-square&logo=Postman&logoColor=white)
 ![](https://img.shields.io/badge/-Notion-%23000000?style=flat-square&logo=Notion&logoColor=white)
-![](https://img.shields.io/badge/-Blog-%23000000?style=flat-square&logo=Notion&logoColor=white)
+![](https://img.shields.io/badge/-Blog-%23000000?style=flat-square&logo=Notion&logoColor=white) -->
