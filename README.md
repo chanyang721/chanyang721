@@ -10,7 +10,6 @@
 </p>
 
 <p>
- <br>
  <strong>
   <span>
    <h3>
