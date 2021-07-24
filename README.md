@@ -1,14 +1,21 @@
 
 
 <p>
-<strong>👋 Hi there, I'm Backend developer using Node.js and Express. </strong><br>
+<h2><strong>👋 안녕하세요.</strong></h2><br>
+<p> Node.js Backend developer 이찬양입니다 </p>
+<h3>About Me</h3>
+<p>
+👨‍💻 안녕하세요. 저는 Node.js, Express를 주로 다루는 주니어 백엔드 개발자 이찬양입니다 <br>
+⛏ 인터넷을 통해 세상을 탐험하며, 보물 같은 경험들을 발굴하는 것에 흥미를 가지고 있습니다. <br>
+🔍 협업을 통해 각자의 강점을 알아가며 자기 객관화를 통해 같이 고민하고 성장하는 것을 중요하게 생각합니다 <br>
+🗂 개발로 인해 기록하는 것을 시작한 후, 기록하는 습관의 가치를 깨닫고 기술 블로그를 운영하고 있습니다 <br>
+😎 새로운 지식을 익히며 학습하는 것에 몰입하며, 이해한 내용을 정리하는 것에 성취감을 느끼는 편입니다. <br>
+ 
  <br>
  <strong>
   <span>
     <g-emoji class="g-emoji" alias="hammer_and_wrench" fallback src="https://github.githubassets.com/images/icons/emoji/unicode/1f6e0.png">🛠</g-emoji>
    Tech Stacks  
-    <g-emoji class="g-emoji" alias="hammer_and_wrench" fallback src="https://github.githubassets.com/images/icons/emoji/unicode/1f6e0.png">🛠</g-emoji>
-   </strong>
   </span> 
   <br>
   <img src="https://camo.githubusercontent.com/a6cc479a37daa64533eac8871c1deb0a09a7afba50c2f567bdde00c942a8a39e/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f2d4e6f64652e6a732d2532333333393933333f7374796c653d666c61742d737175617265266c6f676f3d6e6f64652e6a73266c6f676f436f6c6f723d7768697465">
@@ -29,7 +36,7 @@
   <img src="https://camo.githubusercontent.com/abec2da8e99ec505d1113fa838ab8d2c129166b73b2cd36ac780049593b1682f/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f2d52656475782d2532333736344142433f7374796c653d666c61742d737175617265266c6f676f3d5265647578266c6f676f436f6c6f723d7768697465">
  &nbsp; 
   <br><br>
-<strong>⚡ Tools ⚡</strong> <br>
+<strong>⚡ Tools</strong> <br>
   <img src="https://camo.githubusercontent.com/e96231df11043e86a1e70c128b3136b7d5bc61b525b0c1052b929f9e9e977b49/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f2d4769742d2532334630353033323f7374796c653d666c61742d737175617265266c6f676f3d676974266c6f676f436f6c6f723d7768697465">
  &nbsp; 
   <img src="https://camo.githubusercontent.com/9a3c8a33b0d36ba5b57ce754e29e96cdd650c5a2f3a1b28104ef93dcfc9fc3e2/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f2d506f73746d616e2d2532334646364333373f7374796c653d666c61742d737175617265266c6f676f3d506f73746d616e266c6f676f436f6c6f723d7768697465">
@@ -37,7 +44,7 @@
   <img src="https://camo.githubusercontent.com/975b95f353dd7c563b95d6766fd188a3a72b6b1ad6e077a22219826a28544023/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f2d4e6f74696f6e2d2532333030303030303f7374796c653d666c61742d737175617265266c6f676f3d4e6f74696f6e266c6f676f436f6c6f723d7768697465">  
  &nbsp; 
   <br><br>
-<strong>Contact</strong> <br>
+<strong>🌱 Contact </strong> <br>
   <a href="mailto:chanyang721@gmail.com">
     <img src="https://camo.githubusercontent.com/2ef144e4945a9d7d6ccfa14e7a90524bf5e8986d6fcc23063b23e4840462d9eb/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f476d61696c2d6431343833363f7374796c653d666c61742d737175617265266c6f676f3d476d61696c266c6f676f436f6c6f723d7768697465266c696e6b3d76696c696b65746831733938406e617665722e636f6d" data-canonical-src="https://img.shields.io/badge/Gmail-d14836?style=flat-square&amp;logo=Gmail&amp;logoColor=white&amp;link=chanyang721@gmail.com" style="max-width:100%;">
   </a>
