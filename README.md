@@ -1,15 +1,16 @@
-<p align="center">
+
+
+<p>
 <strong>👋 Hi there, I'm Backend developer using Node.js and Express. </strong><br>
  <br>
  <strong>
   <span>
     <g-emoji class="g-emoji" alias="hammer_and_wrench" fallback src="https://github.githubassets.com/images/icons/emoji/unicode/1f6e0.png">🛠</g-emoji>
-   Skills  
+   Tech Stacks  
     <g-emoji class="g-emoji" alias="hammer_and_wrench" fallback src="https://github.githubassets.com/images/icons/emoji/unicode/1f6e0.png">🛠</g-emoji>
    </strong>
   </span> 
   <br>
-Skills that I've used at least once<br>
   <img src="https://camo.githubusercontent.com/a6cc479a37daa64533eac8871c1deb0a09a7afba50c2f567bdde00c942a8a39e/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f2d4e6f64652e6a732d2532333333393933333f7374796c653d666c61742d737175617265266c6f676f3d6e6f64652e6a73266c6f676f436f6c6f723d7768697465">
  &nbsp; 
   <img src="https://camo.githubusercontent.com/79fa0b36a0abab7df3d09d88851d7a1206a1acac86fe5409438dcc4f098d040e/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f2d457870726573732d2532333030303030303f7374796c653d666c61742d737175617265266c6f676f3d45787072657373266c6f676f436f6c6f723d7768697465">
