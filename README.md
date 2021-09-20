@@ -61,7 +61,7 @@
     <img src="https://camo.githubusercontent.com/2ef144e4945a9d7d6ccfa14e7a90524bf5e8986d6fcc23063b23e4840462d9eb/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f476d61696c2d6431343833363f7374796c653d666c61742d737175617265266c6f676f3d476d61696c266c6f676f436f6c6f723d7768697465266c696e6b3d76696c696b65746831733938406e617665722e636f6d" data-canonical-src="https://img.shields.io/badge/Gmail-d14836?style=flat-square&amp;logo=Gmail&amp;logoColor=white&amp;link=chanyang721@gmail.com" style="max-width:100%;">
   </a>
  &nbsp;
- <a href="https://chanyang721.notion.site/96245a35406f46c5bf28d92056162774">
+ <a href="https://chanyang721.notion.site/Blog-49344f3b2baf40989aa67165e060305e">
   <img src="https://camo.githubusercontent.com/c4fd9f4ee2a4ed8cdced3516006627120a571d16b22a695245b222d786dd8bb2/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f2d426c6f672d2532333030303030303f7374796c653d666c61742d737175617265266c6f676f3d4e6f74696f6e266c6f676f436f6c6f723d7768697465" data-canonical-src="https://img.shields.io/badge/Tech%20Blog-11B48A?style=flat-square&amp;logo=Notion&amp;logoColor=white&amp;link=https://bit.ly/2V4am8f" style="max-width:100%;">
   </a>
 </p>
