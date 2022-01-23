@@ -4,7 +4,8 @@
 👨‍💻 👋 안녕하세요. Node.js 주니어 백엔드 개발자 이찬양입니다 <br>
 🔍 협업 시 편한 분위기 속에서 각자의 강점을 알아가며, 자기 객관화를 통해 같이 고민하고 성장하는 것을 중요하게 생각합니다 <br>
 😎 과업을 위해 필요한 지식을 학습하는 것에 몰입하며, 즉각적인 적용 및 피드백을 통해 방향성을 잃지 않는 것을 중요하게 생각합니다 <br>
-🌱 <a href="https://chanyang721.notion.site/8529e691671d4ed8ba40e9a9d876e0fe">개인 공부</a>로 쌓인 기본을 기반으로 문제를 해결하는 개발자를 지향하고 있습니다.<br>
+🌱 <a href="https://chanyang721.notion.site/8529e691671d4ed8ba40e9a9d876e0fe">개인 공부</a>는 기본을 단단하게 하는 과정이며, 기본은 기술적 불만족을 해결하는 핵심 원리라고 생각합니다<br>
+🌱 <a href="https://www.notion.so/chanyang721/Today-I-Learned-3b2a0bfb62cf406e9bf33eeb41d110c5">TIL</a>은 자신과의 진솔한 커뮤니케이션 과정이며, 스쳐 지나가는 아이디어를 담아두는 공간이라고 생각합니다<br>
 🗂 개발로 인해 <strong>기록하는 습관</strong>의 가치를 깨닫고, 성장의 지표로 삼기 위해 <a href="https://chanyang721.notion.site/Blog-49344f3b2baf40989aa67165e060305e">블로그</a>를 운영하고 있습니다 <br>
 </p>
 
