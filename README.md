@@ -9,9 +9,8 @@
 🗂 개발로 인해 <strong>기록하는 습관</strong>의 가치를 깨닫고, 성장의 지표로 삼기 위해 <a href="https://chanyang721.notion.site/Blog-49344f3b2baf40989aa67165e060305e">블로그</a>를 운영하고 있습니다 <br>
 </p>
 
-<p>
+<!-- <p>
  <strong>
-  <span>
    <h3>
     <g-emoji class="g-emoji" alias="hammer_and_wrench" fallback src="https://github.githubassets.com/images/icons/emoji/unicode/1f6e0.png">
      🛠
@@ -65,7 +64,7 @@
  <a href="https://chanyang721.notion.site/Blog-49344f3b2baf40989aa67165e060305e">
   <img src="https://camo.githubusercontent.com/c4fd9f4ee2a4ed8cdced3516006627120a571d16b22a695245b222d786dd8bb2/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f2d426c6f672d2532333030303030303f7374796c653d666c61742d737175617265266c6f676f3d4e6f74696f6e266c6f676f436f6c6f723d7768697465" data-canonical-src="https://img.shields.io/badge/Tech%20Blog-11B48A?style=flat-square&amp;logo=Notion&amp;logoColor=white&amp;link=https://bit.ly/2V4am8f" style="max-width:100%;">
   </a>
-</p>
+</p> -->
 <!-- 
 ![Node.js](https://img.shields.io/badge/-Node.js-%23339933?style=flat-square&logo=node.js&logoColor=white)
 ![Express](https://img.shields.io/badge/-Express-%23000000?style=flat-square&logo=Express&logoColor=white)<br>
