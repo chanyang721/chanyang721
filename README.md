@@ -6,7 +6,7 @@
 😎 과업을 위해 필요한 지식을 학습하는 것에 몰입하며, 즉각적인 적용 및 피드백을 통해 방향성을 잃지 않는 것을 중요하게 생각합니다 <br>
 🌱 <a href="https://chanyang721.notion.site/8529e691671d4ed8ba40e9a9d876e0fe">개인 공부</a>는 기본을 단단하게 하는 과정이며, 기본은 기술적 불만족을 해결하는 핵심 원리라고 생각합니다<br>
 🌱 <a href="https://www.notion.so/chanyang721/Today-I-Learned-3b2a0bfb62cf406e9bf33eeb41d110c5">TIL</a>은 자신과의 진솔한 커뮤니케이션 과정이며, 스쳐 지나가는 아이디어를 담아두는 공간이라고 생각합니다<br>
-🗂 개발로 인해 <strong>기록하는 습관</strong>의 가치를 깨닫고, 성장의 지표로 삼기 위해 <a href="https://chanyang721.notion.site/Blog-49344f3b2baf40989aa67165e060305e">블로그</a>를 운영하고 있습니다 <br>
+🗂 개발로 인해 <strong>기록하는 습관</strong>의 가치를 깨닫고, 성장의 지표로 삼기 위해 <a href="https://chanyang721.notion.site/Blog-49344f3b2baf40989aa67165e060305e">블로그</a>를 운영하고  있습니다 <br>
 </p>
 
 <!-- <p>
