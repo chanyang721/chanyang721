@@ -1,11 +1,16 @@
 
-<h3>About Me</h3>
+<!-- <h3>About Me</h3> -->
 <p>
-👨‍💻 👋 안녕하세요 ~ 주니어 백엔드 개발자 이찬양입니다 !<br>
-🔍 협업 시 편안하게 각자의 강점을 공유하는 동료이고 싶습니다 <br>
+👨‍💻 👋 안녕하세요. 주니어 백엔드 개발자 이찬양입니다!<br>
+😎 협업 시 편안하게 각자의 강점을 공유하는 동료이고 싶습니다 <br>
 😎 문제 해결을 위한 자연스러운 대화로 동료와 같은 방향으로 가는 것을 중요하게 생각합니다 <br>
-🌱 <a href="https://chanyang721.notion.site/8529e691671d4ed8ba40e9a9d876e0fe">개인 공부</a>
-🌱 <a href="https://www.notion.so/chanyang721/Today-I-Learned-3b2a0bfb62cf406e9bf33eeb41d110c5">TIL</a><br>
+😎 개발 공부는 문제 해결에 필요한 열쇠 조각을 모으는 과정이라고 생각합니다  <br>
+😎 팀원과 서비스에 대해 대화하는 것을 좋아합니다  <br>
+😎 개발자로서 성장의 지표를 블로그에 담아두고 싶습니다  <br>
+
+
+<!-- 🌱 <a href="https://chanyang721.notion.site/8529e691671d4ed8ba40e9a9d876e0fe">개인 공부</a> -->
+<!-- 🌱 <a href="https://www.notion.so/chanyang721/Today-I-Learned-3b2a0bfb62cf406e9bf33eeb41d110c5">TIL</a><br> -->
 </p>
 
 <!-- <p>
@@ -55,7 +60,7 @@
   <br>
 </p>  -->
 <p>
-<strong><h3>💡 Contact</h3></strong>
+<!-- <strong><h3>💡 Contact</h3></strong> -->
   <a href="mailto:chanyang721@gmail.com">
     <img src="https://camo.githubusercontent.com/2ef144e4945a9d7d6ccfa14e7a90524bf5e8986d6fcc23063b23e4840462d9eb/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f476d61696c2d6431343833363f7374796c653d666c61742d737175617265266c6f676f3d476d61696c266c6f676f436f6c6f723d7768697465266c696e6b3d76696c696b65746831733938406e617665722e636f6d" data-canonical-src="https://img.shields.io/badge/Gmail-d14836?style=flat-square&amp;logo=Gmail&amp;logoColor=white&amp;link=chanyang721@gmail.com" style="max-width:100%;">
   </a>
