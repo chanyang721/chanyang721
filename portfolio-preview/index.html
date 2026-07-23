@@ -1,0 +1,1005 @@
+<!doctype html><html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>이찬양 | Backend Engineer Portfolio Preview</title><meta name="robots" content="noindex,nofollow,noarchive"><style>:root {
+  color-scheme: light dark;
+  --color-background: #f4f7fb;
+  --color-surface: #ffffff;
+  --color-surface-muted: #eef2f8;
+  --color-text: #172033;
+  --color-text-muted: #516078;
+  --color-text-subtle: #71809a;
+  --color-text-faint: #98a4b7;
+  --color-border: #dce3ee;
+  --color-border-strong: #c5d0df;
+  --color-accent: #4a6cf7;
+  --color-accent-strong: #3154da;
+  --color-accent-hover: #2748c8;
+  --color-accent-soft: #e9eeff;
+  --color-accent-alt: #7c4dff;
+  --color-accent-alt-soft: #f0ebff;
+  --color-on-accent: #ffffff;
+  --color-success: #16806a;
+  --color-success-soft: #e5f6f1;
+  --color-warning: #b97900;
+  --color-warning-soft: #fff3d6;
+  --shadow-xs: 0 1px 2px rgb(28 39 58 / 5%);
+  --shadow-sm: 0 8px 24px rgb(28 39 58 / 8%);
+  --shadow-md: 0 18px 48px rgb(28 39 58 / 12%);
+  --shell: 74rem;
+  --reading-shell: 58rem;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-background: #0f1420;
+    --color-surface: #151c2a;
+    --color-surface-muted: #1b2434;
+    --color-text: #eef3fb;
+    --color-text-muted: #b6c1d3;
+    --color-text-subtle: #8e9bb0;
+    --color-text-faint: #657188;
+    --color-border: #2b3649;
+    --color-border-strong: #3b4960;
+    --color-accent: #8299ff;
+    --color-accent-strong: #9aabff;
+    --color-accent-hover: #b0bdff;
+    --color-accent-soft: #202c58;
+    --color-accent-alt: #aa8cff;
+    --color-accent-alt-soft: #30264d;
+    --color-on-accent: #101526;
+    --color-success: #57c6aa;
+    --color-success-soft: #153a34;
+    --color-warning: #f2b84b;
+    --color-warning-soft: #3a2b14;
+    --shadow-xs: 0 1px 2px rgb(0 0 0 / 20%);
+    --shadow-sm: 0 8px 24px rgb(0 0 0 / 24%);
+    --shadow-md: 0 18px 48px rgb(0 0 0 / 32%);
+  }
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  background: var(--color-background);
+}
+
+body {
+  min-width: 320px;
+  margin: 0;
+  background: var(--color-background);
+  color: var(--color-text);
+  font-family:
+    Pretendard,
+    'Pretendard Variable',
+    -apple-system,
+    BlinkMacSystemFont,
+    'Segoe UI',
+    'Noto Sans KR',
+    sans-serif;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+button,
+input,
+textarea,
+select {
+  font: inherit;
+}
+
+a {
+  color: inherit;
+}
+
+img,
+svg {
+  max-width: 100%;
+}
+
+::selection {
+  background: color-mix(in srgb, var(--color-accent) 28%, transparent);
+}
+
+:focus-visible {
+  outline: 3px solid color-mix(in srgb, var(--color-accent) 65%, white);
+  outline-offset: 3px;
+}
+
+.shell {
+  width: min(calc(100% - 2rem), var(--shell));
+  margin-inline: auto;
+}
+
+.reading-shell {
+  width: min(calc(100% - 2rem), var(--reading-shell));
+}
+
+.eyebrow {
+  margin: 0;
+  color: var(--color-accent-strong);
+  font-size: 0.72rem;
+  font-weight: 820;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  clip-path: inset(50%);
+  white-space: nowrap;
+}
+
+.skip-link {
+  position: fixed;
+  z-index: 100;
+  top: 0.6rem;
+  left: 0.6rem;
+  transform: translateY(-160%);
+  border-radius: 0.7rem;
+  background: var(--color-accent-strong);
+  padding: 0.75rem 1rem;
+  color: var(--color-on-accent);
+  font-weight: 750;
+  text-decoration: none;
+}
+
+.skip-link:focus {
+  transform: translateY(0);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  *,
+  *::before,
+  *::after {
+    scroll-behavior: auto !important;
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+@media print {
+  :root {
+    color-scheme: light;
+  }
+
+  body {
+    background: white;
+    color: black;
+  }
+
+  a {
+    text-decoration: none;
+  }
+}
+
+.h_header {
+  position: sticky;
+  z-index: 30;
+  top: 0;
+  border-bottom: 1px solid color-mix(in srgb, var(--color-border) 84%, transparent);
+  background: color-mix(in srgb, var(--color-background) 88%, transparent);
+  backdrop-filter: blur(18px);
+}
+
+.h_inner {
+  display: flex;
+  min-height: 4.25rem;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1.5rem;
+}
+
+.h_brand {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.72rem;
+  color: var(--color-text);
+  text-decoration: none;
+}
+
+.h_brand > span:last-child {
+  display: grid;
+  gap: 0.1rem;
+}
+
+.h_brand strong {
+  font-size: 0.96rem;
+  letter-spacing: -0.02em;
+}
+
+.h_brand small {
+  color: var(--color-text-subtle);
+  font-size: 0.72rem;
+}
+
+.h_mark {
+  display: grid;
+  width: 2.2rem;
+  height: 2.2rem;
+  place-items: center;
+  border-radius: 0.72rem;
+  background: linear-gradient(145deg, var(--color-accent-strong), var(--color-accent-alt));
+  color: white;
+  font-size: 0.75rem;
+  font-weight: 850;
+  box-shadow: var(--shadow-sm);
+}
+
+.h_nav {
+  display: flex;
+  align-items: center;
+  gap: 0.35rem;
+}
+
+.h_nav a {
+  border-radius: 999px;
+  padding: 0.55rem 0.72rem;
+  color: var(--color-text-muted);
+  font-size: 0.86rem;
+  font-weight: 680;
+  text-decoration: none;
+}
+
+.h_nav a:hover {
+  background: var(--color-surface-muted);
+  color: var(--color-text);
+}
+
+.h_mobileMenu {
+  display: none;
+  position: relative;
+}
+
+.h_mobileMenu summary {
+  cursor: pointer;
+  list-style: none;
+  border: 1px solid var(--color-border-strong);
+  border-radius: 999px;
+  padding: 0.56rem 0.78rem;
+  font-size: 0.84rem;
+  font-weight: 700;
+}
+
+.h_mobileMenu summary::-webkit-details-marker {
+  display: none;
+}
+
+.h_mobileMenu nav {
+  position: absolute;
+  top: calc(100% + 0.6rem);
+  right: 0;
+  display: grid;
+  min-width: 11rem;
+  overflow: hidden;
+  border: 1px solid var(--color-border);
+  border-radius: 1rem;
+  background: var(--color-surface);
+  box-shadow: var(--shadow-md);
+}
+
+.h_mobileMenu nav a {
+  padding: 0.85rem 1rem;
+  color: var(--color-text);
+  text-decoration: none;
+}
+
+.h_mobileMenu nav a:hover {
+  background: var(--color-surface-muted);
+}
+
+@media (max-width: 720px) {
+  .h_nav {
+    display: none;
+  }
+
+  .h_mobileMenu {
+    display: block;
+  }
+}
+
+.p_hero {
+  position: relative;
+  overflow: hidden;
+  padding: clamp(4.5rem, 10vw, 8.5rem) 0 3rem;
+}
+
+.p_hero::before {
+  position: absolute;
+  z-index: -1;
+  top: -15rem;
+  right: -12rem;
+  width: 34rem;
+  height: 34rem;
+  border-radius: 999px;
+  background: radial-gradient(circle, color-mix(in srgb, var(--color-accent) 18%, transparent), transparent 68%);
+  content: '';
+}
+
+.p_heroInner {
+  display: grid;
+  grid-template-columns: minmax(0, 1.55fr) minmax(18rem, 0.75fr);
+  gap: clamp(2.5rem, 7vw, 6rem);
+  align-items: end;
+  margin-bottom: 2.4rem;
+}
+
+.p_heroCopy h1 {
+  max-width: 14ch;
+  margin: 0.75rem 0 0;
+  font-size: clamp(2.8rem, 7vw, 6.4rem);
+  letter-spacing: -0.072em;
+  line-height: 1.02;
+}
+
+.p_heroCopy h1 span {
+  display: block;
+  color: var(--color-accent-strong);
+}
+
+.p_heroDescription {
+  max-width: 48rem;
+  margin: 1.4rem 0 0;
+  color: var(--color-text-muted);
+  font-size: clamp(1rem, 2vw, 1.18rem);
+  line-height: 1.82;
+}
+
+.p_heroActions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.62rem;
+  margin-top: 1.8rem;
+}
+
+.p_heroNote {
+  border: 1px solid var(--color-border);
+  border-radius: 1.35rem;
+  background: color-mix(in srgb, var(--color-surface) 92%, transparent);
+  padding: 1.3rem;
+  box-shadow: var(--shadow-sm);
+}
+
+.p_heroNote > span {
+  color: var(--color-text-subtle);
+  font-size: 0.68rem;
+  font-weight: 800;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.p_heroNote blockquote {
+  margin: 0.8rem 0 0;
+  font-size: clamp(1.05rem, 2vw, 1.3rem);
+  font-weight: 780;
+  letter-spacing: -0.025em;
+  line-height: 1.55;
+}
+
+.p_heroNote p {
+  margin: 0.85rem 0 0;
+  color: var(--color-text-muted);
+  font-size: 0.82rem;
+  line-height: 1.65;
+}
+
+.p_proofSection,
+.p_workSection,
+.p_careerSection,
+.p_skillsSection,
+.p_contactSection {
+  padding: clamp(4rem, 8vw, 7rem) 0;
+}
+
+.p_proofSection,
+.p_skillsSection {
+  border-block: 1px solid var(--color-border);
+  background: var(--color-surface-muted);
+}
+
+.p_sectionHeading {
+  max-width: 47rem;
+}
+
+.p_sectionHeading h2 {
+  margin: 0.58rem 0 0;
+  font-size: clamp(1.9rem, 4.4vw, 3.6rem);
+  letter-spacing: -0.055em;
+  line-height: 1.15;
+}
+
+.p_sectionHeading > p:last-child {
+  margin: 1rem 0 0;
+  color: var(--color-text-muted);
+  font-size: 0.96rem;
+  line-height: 1.78;
+}
+
+.p_principleGrid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 0.8rem;
+  margin-top: 2rem;
+}
+
+.p_principleGrid article {
+  border: 1px solid var(--color-border);
+  border-radius: 1.2rem;
+  background: var(--color-surface);
+  padding: 1.2rem;
+}
+
+.p_principleGrid span {
+  color: var(--color-accent-strong);
+  font-size: 0.7rem;
+  font-weight: 800;
+}
+
+.p_principleGrid h3 {
+  margin: 0.7rem 0 0;
+  font-size: 1.02rem;
+}
+
+.p_principleGrid p {
+  margin: 0.5rem 0 0;
+  color: var(--color-text-muted);
+  font-size: 0.85rem;
+  line-height: 1.68;
+}
+
+.p_projectGrid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 0.85rem;
+  margin-top: 2.1rem;
+}
+
+.p_twoColumn {
+  display: grid;
+  grid-template-columns: minmax(0, 0.9fr) minmax(0, 1.1fr);
+  gap: clamp(3rem, 8vw, 7rem);
+  align-items: start;
+}
+
+.p_skillGrid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 0.8rem;
+  margin-top: 2rem;
+}
+
+.p_skillGrid article {
+  border: 1px solid var(--color-border);
+  border-radius: 1.1rem;
+  background: var(--color-surface);
+  padding: 1.1rem;
+}
+
+.p_skillGrid h3 {
+  margin: 0;
+  font-size: 0.95rem;
+}
+
+.p_skillGrid ul {
+  display: grid;
+  gap: 0.45rem;
+  margin: 0.8rem 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.p_skillGrid li {
+  color: var(--color-text-muted);
+  font-size: 0.82rem;
+}
+
+.p_contactCard {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+  border: 1px solid var(--color-border-strong);
+  border-radius: 1.4rem;
+  background: var(--color-surface);
+  padding: clamp(1.5rem, 4vw, 2.7rem);
+  box-shadow: var(--shadow-sm);
+}
+
+.p_contactCard h2 {
+  max-width: 30rem;
+  margin: 0.55rem 0 0;
+  font-size: clamp(1.55rem, 3.5vw, 2.6rem);
+  letter-spacing: -0.045em;
+  line-height: 1.22;
+}
+
+.p_contactCard p {
+  margin: 0.8rem 0 0;
+  color: var(--color-text-muted);
+}
+
+.p_contactActions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.55rem;
+}
+
+@media (max-width: 960px) {
+  .p_heroInner,
+  .p_twoColumn {
+    grid-template-columns: 1fr;
+  }
+
+  .p_projectGrid,
+  .p_skillGrid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .p_heroNote {
+    max-width: 38rem;
+  }
+}
+
+@media (max-width: 700px) {
+  .p_principleGrid,
+  .p_projectGrid,
+  .p_skillGrid {
+    grid-template-columns: 1fr;
+  }
+
+  .p_contactCard {
+    display: grid;
+  }
+}
+
+.m_grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  overflow: hidden;
+  margin: 0;
+  border: 1px solid var(--color-border);
+  border-radius: 1.3rem;
+  background: var(--color-surface);
+  box-shadow: var(--shadow-sm);
+}
+
+.m_item {
+  min-width: 0;
+  padding: 1.25rem;
+}
+
+.m_item + .m_item {
+  border-left: 1px solid var(--color-border);
+}
+
+.m_item dt {
+  color: var(--color-text-subtle);
+  font-size: 0.72rem;
+  font-weight: 700;
+  line-height: 1.4;
+}
+
+.m_item dd {
+  margin: 0.5rem 0 0;
+  font-size: clamp(1.55rem, 4vw, 2.35rem);
+  font-weight: 840;
+  letter-spacing: -0.045em;
+}
+
+.m_note {
+  margin: 0.28rem 0 0;
+  color: var(--color-text-subtle);
+  font-size: 0.68rem;
+}
+
+@media (max-width: 760px) {
+  .m_grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .m_item + .m_item {
+    border-left: 0;
+  }
+
+  .m_item:nth-child(even) {
+    border-left: 1px solid var(--color-border);
+  }
+
+  .m_item:nth-child(n + 3) {
+    border-top: 1px solid var(--color-border);
+  }
+}
+
+@media (max-width: 420px) {
+  .m_grid {
+    grid-template-columns: 1fr;
+  }
+
+  .m_item:nth-child(even) {
+    border-left: 0;
+  }
+
+  .m_item:nth-child(n + 2) {
+    border-top: 1px solid var(--color-border);
+  }
+}
+
+.pc_card {
+  display: flex;
+  min-width: 0;
+  flex-direction: column;
+  border: 1px solid var(--color-border);
+  border-radius: 1.25rem;
+  background: var(--color-surface);
+  padding: 1.2rem;
+  box-shadow: var(--shadow-xs);
+  transition:
+    transform 170ms ease,
+    border-color 170ms ease,
+    box-shadow 170ms ease;
+}
+
+.pc_card:hover {
+  transform: translateY(-3px);
+  border-color: var(--color-border-strong);
+  box-shadow: var(--shadow-sm);
+}
+
+.pc_topline {
+  display: flex;
+  align-items: center;
+  gap: 0.55rem;
+  color: var(--color-text-subtle);
+  font-size: 0.68rem;
+  font-weight: 720;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.pc_index {
+  display: grid;
+  width: 1.65rem;
+  height: 1.65rem;
+  place-items: center;
+  border-radius: 0.55rem;
+  background: var(--color-accent-soft);
+  color: var(--color-accent-strong);
+  font-weight: 850;
+}
+
+.pc_card h3 {
+  margin: 1.1rem 0 0;
+  font-size: clamp(1.3rem, 2.8vw, 1.82rem);
+  letter-spacing: -0.04em;
+  line-height: 1.25;
+}
+
+.pc_card h3 a {
+  color: var(--color-text);
+  text-decoration: none;
+}
+
+.pc_card h3 a:hover {
+  color: var(--color-accent-strong);
+}
+
+.pc_summary {
+  margin: 0.8rem 0 0;
+  color: var(--color-text-muted);
+  font-size: 0.87rem;
+  line-height: 1.72;
+}
+
+.pc_meta {
+  display: grid;
+  gap: 0.6rem;
+  margin: 1rem 0 0;
+}
+
+.pc_meta div {
+  display: grid;
+  grid-template-columns: 4.2rem 1fr;
+  gap: 0.65rem;
+}
+
+.pc_meta dt {
+  color: var(--color-text-subtle);
+  font-size: 0.68rem;
+  font-weight: 750;
+  text-transform: uppercase;
+}
+
+.pc_meta dd {
+  margin: 0;
+  color: var(--color-text-muted);
+  font-size: 0.8rem;
+}
+
+.pc_tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.38rem;
+  margin-top: 1rem;
+}
+
+.pc_link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.8rem;
+  margin-top: auto;
+  padding-top: 1.2rem;
+  color: var(--color-accent-strong);
+  font-size: 0.84rem;
+  font-weight: 760;
+  text-decoration: none;
+}
+
+.pc_link span {
+  transition: transform 160ms ease;
+}
+
+.pc_link:hover span {
+  transform: translateX(3px);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .pc_card,
+  .pc_link span {
+    transition: none;
+  }
+
+  .pc_card:hover,
+  .pc_link:hover span {
+    transform: none;
+  }
+}
+
+.c_timeline {
+  position: relative;
+  display: grid;
+  gap: 0;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.c_timeline::before {
+  position: absolute;
+  top: 1rem;
+  bottom: 1rem;
+  left: 1.02rem;
+  width: 1px;
+  background: var(--color-border-strong);
+  content: '';
+}
+
+.c_timeline li {
+  position: relative;
+  display: grid;
+  grid-template-columns: 2.1rem 1fr;
+  gap: 1rem;
+  padding: 0 0 1.5rem;
+}
+
+.c_timeline li:last-child {
+  padding-bottom: 0;
+}
+
+.c_marker {
+  z-index: 1;
+  display: grid;
+  width: 2.1rem;
+  height: 2.1rem;
+  place-items: center;
+  border: 1px solid var(--color-border-strong);
+  border-radius: 999px;
+  background: var(--color-surface);
+  color: var(--color-accent-strong);
+  font-size: 0.65rem;
+  font-weight: 850;
+}
+
+.c_content {
+  border-bottom: 1px solid var(--color-border);
+  padding-bottom: 1.5rem;
+}
+
+.c_timeline li:last-child .c_content {
+  border-bottom: 0;
+  padding-bottom: 0;
+}
+
+.c_heading {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.c_heading h3 {
+  margin: 0;
+  font-size: 1.05rem;
+}
+
+.c_heading p {
+  margin: 0.25rem 0 0;
+  color: var(--color-text-muted);
+  font-size: 0.78rem;
+}
+
+.c_heading time {
+  flex: 0 0 auto;
+  color: var(--color-text-subtle);
+  font-size: 0.72rem;
+}
+
+.c_summary {
+  margin: 0.8rem 0 0;
+  color: var(--color-text-muted);
+  font-size: 0.84rem;
+  line-height: 1.7;
+}
+
+@media (max-width: 600px) {
+  .c_heading {
+    display: grid;
+  }
+}
+
+.t_tag {
+  display: inline-flex;
+  align-items: center;
+  border: 1px solid var(--color-border);
+  border-radius: 999px;
+  background: var(--color-surface-muted);
+  padding: 0.34rem 0.58rem;
+  color: var(--color-text-muted);
+  font-size: 0.68rem;
+  font-weight: 680;
+}
+
+.b_button {
+  display: inline-flex;
+  min-height: 2.75rem;
+  align-items: center;
+  justify-content: center;
+  gap: 0.45rem;
+  border: 1px solid transparent;
+  border-radius: 999px;
+  padding: 0.72rem 1.15rem;
+  font-size: 0.94rem;
+  font-weight: 750;
+  line-height: 1;
+  text-decoration: none;
+  transition:
+    transform 160ms ease,
+    background-color 160ms ease,
+    border-color 160ms ease,
+    color 160ms ease;
+}
+
+.b_button:hover {
+  transform: translateY(-1px);
+}
+
+.b_primary {
+  background: var(--color-accent-strong);
+  color: var(--color-on-accent);
+  box-shadow: var(--shadow-sm);
+}
+
+.b_primary:hover {
+  background: var(--color-accent-hover);
+}
+
+.b_secondary {
+  border-color: var(--color-border-strong);
+  background: var(--color-surface);
+  color: var(--color-text);
+}
+
+.b_secondary:hover {
+  border-color: var(--color-accent);
+  color: var(--color-accent-strong);
+}
+
+.b_ghost {
+  color: var(--color-text-muted);
+}
+
+.b_ghost:hover {
+  background: var(--color-surface-muted);
+  color: var(--color-text);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .b_button {
+    transition: none;
+  }
+
+  .b_button:hover {
+    transform: none;
+  }
+}
+
+.f_footer {
+  border-top: 1px solid var(--color-border);
+  background: var(--color-surface-muted);
+}
+
+.f_inner {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 2rem;
+  padding-block: 2.7rem;
+}
+
+.f_inner strong {
+  font-size: 0.96rem;
+}
+
+.f_inner p {
+  max-width: 38rem;
+  margin: 0.5rem 0 0;
+  color: var(--color-text-muted);
+  font-size: 0.86rem;
+}
+
+.f_links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  gap: 0.8rem 1rem;
+}
+
+.f_links a {
+  color: var(--color-text-muted);
+  font-size: 0.84rem;
+  font-weight: 680;
+  text-decoration: none;
+}
+
+.f_links a:hover {
+  color: var(--color-accent-strong);
+}
+
+@media (max-width: 720px) {
+  .f_inner {
+    display: grid;
+  }
+
+  .f_links {
+    justify-content: flex-start;
+  }
+}
+
+.f_inner small {
+  display: block;
+  margin-top: 0.5rem;
+  color: var(--color-text-subtle);
+  font-size: 0.72rem;
+}
+</style></head><body id="top"><div style="position:fixed;right:12px;bottom:12px;z-index:9999;padding:8px 12px;border-radius:999px;background:#172033;color:#fff;font:700 12px/1.2 system-ui;box-shadow:0 8px 24px rgba(0,0,0,.18)">Temporary review build</div>
+<header class="h_header"><div class="h_inner shell"><a class="h_brand" href="#top"><span class="h_mark">LC</span><span><strong>이찬양</strong><small>Backend Engineer</small></span></a><nav class="h_nav"><a href="#work">프로젝트</a><a href="#career">경력</a><a href="#skills">기술</a><a href="#work">PDF</a></nav></div></header>
+<main>
+<section class="p_hero"><div class="p_heroInner shell"><div class="p_heroCopy"><p class="eyebrow">Backend Engineer Portfolio</p><h1>금전성 데이터와 외부 시스템의<span>실패 경계를 설계합니다.</span></h1><p class="p_heroDescription">결제·구독·포인트·이벤트 처리 시스템에서 데이터 정합성, 멱등성, 동시성, 장애 복구를 설계하고 실제 서비스까지 구현해온 백엔드 엔지니어 이찬양입니다.</p><div class="p_heroActions"><a class="b_button b_primary" href="#work">대표 프로젝트</a><a class="b_button b_secondary" href="#work">PDF 포트폴리오</a><a class="b_button b_ghost" href="https://github.com/chanyang721" target="_blank" rel="noreferrer">GitHub</a></div></div><aside class="p_heroNote"><span>Engineering principle</span><blockquote>“정상 흐름보다 중복 요청, 부분 실패, 재실행, 취소·환불 같은 경계 조건을 먼저 설계합니다.”</blockquote><p>백엔드·DB·배치·큐·외부 PG 연동의 책임과 복구 경로를 명확히 나누는 것을 중요하게 생각합니다.</p></aside></div><div class="shell"><dl class="m_grid"><div class="m_item"><dt>백엔드 실무 경력</dt><dd>4년</dd></div><div class="m_item"><dt>최근 실서비스 백엔드 전담 프로젝트</dt><dd>2개</dd></div><div class="m_item"><dt>NICEPAY·Payletter 결제 통합</dt><dd>2 PG</dd></div><div class="m_item"><dt>월 정산 규모</dt><dd>약 1천만 P</dd><p class="m_note">마지막 확인 기준</p></div></dl></div></section>
+<section class="p_proofSection"><div class="shell"><div class="p_sectionHeading"><p class="eyebrow">What I optimize for</p><h2>기능 수보다 운영 가능한 구조를 증명합니다</h2><p>채용 담당자는 빠르게 강점을 파악하고, 기술 리더는 필요할 때 설계 근거와 한계를 깊게 확인할 수 있도록 정보의 깊이를 단계적으로 구성했습니다.</p></div><div class="p_principleGrid"><article><span>01</span><h3>정상 흐름보다 경계 조건부터</h3><p>중복 요청, 부분 실패, 재실행, 취소·환불, 외부 시스템 지연을 먼저 정의합니다.</p></article><article><span>02</span><h3>최종 방어선은 데이터베이스</h3><p>유일성 제약, 상태 조건부 전이, 행 잠금으로 정합성을 지킵니다.</p></article><article><span>03</span><h3>복구 가능한 상태를 남깁니다</h3><p>재시도, 스테일 복구, DEAD·UNPAID 같은 운영 가능한 상태로 모델링합니다.</p></article></div></div></section>
+<section id="work" class="p_workSection"><div class="shell"><div class="p_sectionHeading"><p class="eyebrow">Selected work</p><h2>대표 프로젝트</h2><p>포인트 회계·보상 정합성과 멀티 PG·구독 생명주기를 서로 다른 문제로 분리하고, 포트폴리오 사이트 자체도 개인 프로젝트로 기록했습니다.</p></div><div class="p_projectGrid"><article class="pc_card"><div class="pc_topline"><span class="pc_index">01</span><span>Production Case Study 01</span></div><h3><a href="#work">포인트·추천 보상·결제·알림 플랫폼</a></h3><p class="pc_summary">지급 예정 보상부터 정산·사용·환불·만료까지 금전성 데이터의 전체 수명주기를 설계하고, 추천인·티어 정책과 결제·알림을 운영 가능한 파이프라인으로 연결했습니다.</p><dl class="pc_meta"><div><dt>Role</dt><dd>백엔드 전담 / 개발팀 리드</dd></div><div><dt>Period</dt><dd>2025.07–2026.07</dd></div></dl><div class="pc_tags"><span class="t_tag">NestJS</span><span class="t_tag">TypeScript</span><span class="t_tag">PostgreSQL</span><span class="t_tag">Prisma</span><span class="t_tag">BullMQ</span><span class="t_tag">NICEPAY</span></div><a class="pc_link" href="#work">상세 페이지 준비 중 <span>→</span></a></article><article class="pc_card"><div class="pc_topline"><span class="pc_index">02</span><span>Production Case Study 02</span></div><h3><a href="#work">멀티 PG 기반 영상 결제·정기구독 플랫폼</a></h3><p class="pc_summary">NICEPAY와 Payletter의 서로 다른 결제 방식과 단건·구독 청구 생명주기를 분리하고, 최초 결제·갱신·재시도·플랜 변경·기간말 해지까지 구현했습니다.</p><dl class="pc_meta"><div><dt>Role</dt><dd>백엔드 전담 / 개발팀 리드</dd></div><div><dt>Period</dt><dd>2026.05–2026.07</dd></div></dl><div class="pc_tags"><span class="t_tag">NestJS</span><span class="t_tag">TypeScript</span><span class="t_tag">PostgreSQL</span><span class="t_tag">Prisma</span><span class="t_tag">NICEPAY</span><span class="t_tag">Payletter</span></div><a class="pc_link" href="#work">상세 페이지 준비 중 <span>→</span></a></article><article class="pc_card"><div class="pc_topline"><span class="pc_index">03</span><span>Personal Project</span></div><h3><a href="#work">Backend Engineer Portfolio Platform</a></h3><p class="pc_summary">회사 기술 문서를 채용 담당자가 빠르게 이해할 수 있는 사례 연구로 재구성하고, 서버 우선 아키텍처·접근성·SEO·CI를 적용한 반응형 Next.js 사이트입니다.</p><dl class="pc_meta"><div><dt>Role</dt><dd>기획·디자인·프론트엔드·배포</dd></div><div><dt>Period</dt><dd>2026.07–현재</dd></div></dl><div class="pc_tags"><span class="t_tag">Next.js 16</span><span class="t_tag">React 19</span><span class="t_tag">TypeScript</span><span class="t_tag">CSS Modules</span><span class="t_tag">GitHub Actions</span><span class="t_tag">Vercel-ready</span></div><a class="pc_link" href="#work">상세 페이지 준비 중 <span>→</span></a></article></div></div></section>
+<section id="career" class="p_careerSection"><div class="p_twoColumn shell"><div class="p_sectionHeading"><p class="eyebrow">Career</p><h2>전체 경력은 간결하게, 최근 경험은 깊게</h2><p>이력서는 모든 회사를 최근순으로 요약하고, 포트폴리오는 가장 어려웠고 코드로 방어할 수 있는 최근 프로젝트에 집중합니다.</p></div><ol class="c_timeline"><li><span class="c_marker">01</span><div class="c_content"><div class="c_heading"><div><h3>한국심리교육원</h3><p>Backend Engineer / Team Lead</p></div><time>2025.07–2026.07</time></div><p class="c_summary">결제·구독·포인트·보상·알림 플랫폼 2개 프로젝트의 백엔드·DB·운영 구조 전담</p></div></li><li><span class="c_marker">02</span><div class="c_content"><div class="c_heading"><div><h3>Algorith Capital</h3><p>Backend Engineer</p></div><time>2023.10–2024.11</time></div><p class="c_summary">P2E 보상 플랫폼, 컨트랙트 승인 워크플로우, 가격 데이터 처리와 백테스트</p></div></li><li><span class="c_marker">03</span><div class="c_content"><div class="c_heading"><div><h3>투스페이스</h3><p>Backend Engineer</p></div><time>2022.08–2023.07</time></div><p class="c_summary">콘텐츠 SaaS 백엔드, 비동기 파일 처리, AWS 배포 자동화와 운영 최적화</p></div></li><li><span class="c_marker">04</span><div class="c_content"><div class="c_heading"><div><h3>라이프플래닝연구소</h3><p>Backend Engineer</p></div><time>2021.11–2022.07</time></div><p class="c_summary">레거시 리뉴얼, 도메인 재설계, 데이터 마이그레이션, 쿼리·인프라 최적화</p></div></li></ol></div></section>
+<section id="skills" class="p_skillsSection"><div class="shell"><div class="p_sectionHeading"><p class="eyebrow">Capabilities</p><h2>기술 이름보다 사용 맥락을 설명합니다</h2></div><div class="p_skillGrid"><article><h3>Backend</h3><ul><li>TypeScript</li><li>NestJS</li><li>REST API</li><li>Domain Modeling</li><li>Batch Processing</li></ul></article><article><h3>Data</h3><ul><li>PostgreSQL</li><li>Prisma</li><li>Transactions</li><li>Row Locking</li><li>Idempotency</li></ul></article><article><h3>Async &amp; Integration</h3><ul><li>BullMQ</li><li>Transactional Outbox</li><li>NICEPAY</li><li>Payletter</li><li>FCM</li></ul></article><article><h3>Delivery</h3><ul><li>Docker</li><li>AWS</li><li>GitHub Actions</li><li>Testing</li><li>Technical Documentation</li></ul></article></div></div></section>
+<section class="p_contactSection"><div class="p_contactCard shell"><div><p class="eyebrow">Contact</p><h2>백엔드 설계와 운영 문제를 함께 풀 팀을 찾고 있습니다.</h2><p>서울·인천 근무를 중심으로 백엔드 엔지니어 포지션을 검토하고 있습니다.</p></div><div class="p_contactActions"><a class="b_button b_primary" href="mailto:chanyang721@gmail.com">이메일 보내기</a><a class="b_button b_secondary" href="https://github.com/chanyang721" target="_blank" rel="noreferrer">GitHub 보기</a></div></div></section>
+</main>
+<footer class="f_footer"><div class="f_inner shell"><div><strong>이찬양 · Backend Engineer</strong><p>문제의 정상 흐름보다 중복·부분 실패·재실행과 복구 경계를 먼저 설계합니다.</p><small>Last updated 2026.07.23</small></div><div class="f_links"><a href="mailto:chanyang721@gmail.com">chanyang721@gmail.com</a><a href="https://github.com/chanyang721" target="_blank" rel="noreferrer">GitHub</a><a href="#work">PDF Portfolio</a></div></div></footer>
+</body></html>
