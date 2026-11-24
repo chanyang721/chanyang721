@@ -1,12 +1,12 @@
 ## Open Source Contributions
 
-사용 중 발견한 문제를 수정하고 오픈소스에 기여합니다.
+I contribute fixes for issues I encounter in the tools I use.
 
-| 프로젝트 | 기여 |
+| Project | Contributions |
 | --- | --- |
-| **GitHub MCP Server** · Go | PR 파일 경로 자동완성 수정 — [#3860](https://github.com/github/github-mcp-server/pull/3860) |
-| **Herdr App** · Rust, TypeScript | 모드 리로드 메모리 고갈, 잘못된 ID로 인한 터미널 종료, Windows 경로 처리, 한글·이모지 검색 강조 수정 — [#760](https://github.com/herdrdev/herdr-app/pull/760) · [#297](https://github.com/herdrdev/herdr-app/pull/297) · [#354](https://github.com/herdrdev/herdr-app/pull/354) · [#587](https://github.com/herdrdev/herdr-app/pull/587) |
-| **Herdr Core** · Rust | 메시지 재시도 CPU 과점유, UTF-8 출력 손상, 터미널 상태 응답 수정 — [#124](https://github.com/herdrdev/herdr-core/pull/124) · [#129](https://github.com/herdrdev/herdr-core/pull/129) · [#125](https://github.com/herdrdev/herdr-core/pull/125) |
+| **GitHub MCP Server** · Go | Fixed PR file path completion to use the PR head tree — [#3860](https://github.com/github/github-mcp-server/pull/3860) |
+| **Herdr App** · Rust, TypeScript | Fixed memory exhaustion on mod reload, unintended terminal closure from invalid IDs, Windows path handling, and wide-character search highlighting — [#760](https://github.com/herdrdev/herdr-app/pull/760) · [#297](https://github.com/herdrdev/herdr-app/pull/297) · [#354](https://github.com/herdrdev/herdr-app/pull/354) · [#587](https://github.com/herdrdev/herdr-app/pull/587) |
+| **Herdr Core** · Rust | Fixed excessive CPU usage during message retries, UTF-8 output corruption, and incorrect terminal status reporting — [#124](https://github.com/herdrdev/herdr-core/pull/124) · [#129](https://github.com/herdrdev/herdr-core/pull/129) · [#125](https://github.com/herdrdev/herdr-core/pull/125) |
 
 <!--
 ## Language
