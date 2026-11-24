@@ -1,3 +1,5 @@
+Backend engineer in Seoul. Most of my work is in private company repositories; see my [portfolio](https://chanyang721.github.io/en/) for those projects.
+
 ## Open Source Contributions
 
 I contribute fixes for issues I encounter in the tools I use, working with Claude Code and OpenAI Codex.
