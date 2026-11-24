@@ -2,11 +2,11 @@
 
 I contribute fixes for issues I encounter in the tools I use.
 
-| Project | Contributions |
-| --- | --- |
-| **GitHub MCP Server** · Go | Fixed PR file path completion to use the PR head tree — [#3860](https://github.com/github/github-mcp-server/pull/3860) |
-| **Herdr App** · Rust, TypeScript | Fixed memory exhaustion on mod reload, unintended terminal closure from invalid IDs, Windows path handling, and wide-character search highlighting — [#760](https://github.com/herdrdev/herdr-app/pull/760) · [#297](https://github.com/herdrdev/herdr-app/pull/297) · [#354](https://github.com/herdrdev/herdr-app/pull/354) · [#587](https://github.com/herdrdev/herdr-app/pull/587) |
-| **Herdr Core** · Rust | Fixed excessive CPU usage during message retries, UTF-8 output corruption, and incorrect terminal status reporting — [#124](https://github.com/herdrdev/herdr-core/pull/124) · [#129](https://github.com/herdrdev/herdr-core/pull/129) · [#125](https://github.com/herdrdev/herdr-core/pull/125) |
+| Project | Language | Contributions |
+| --- | --- | --- |
+| <img src="https://avatars.githubusercontent.com/u/9919?v=4&amp;s=48" width="24" height="24" alt="GitHub" /> **[GitHub MCP Server](https://github.com/github/github-mcp-server)** | Go | Fixed PR file path completion to use the PR head tree — [#3860](https://github.com/github/github-mcp-server/pull/3860) |
+| <img src="https://avatars.githubusercontent.com/u/309108654?v=4&amp;s=48" width="24" height="24" alt="Herdr" /> **[Herdr App](https://github.com/herdrdev/herdr-app)** | Rust, TypeScript | Fixed memory exhaustion on mod reload, unintended terminal closure from invalid IDs, Windows path handling, and wide-character search highlighting — [#760](https://github.com/herdrdev/herdr-app/pull/760) · [#297](https://github.com/herdrdev/herdr-app/pull/297) · [#354](https://github.com/herdrdev/herdr-app/pull/354) · [#587](https://github.com/herdrdev/herdr-app/pull/587) |
+| <img src="https://avatars.githubusercontent.com/u/309108654?v=4&amp;s=48" width="24" height="24" alt="Herdr" /> **[Herdr Core](https://github.com/herdrdev/herdr-core)** | Rust | Fixed excessive CPU usage during message retries, UTF-8 output corruption, and incorrect terminal status reporting — [#124](https://github.com/herdrdev/herdr-core/pull/124) · [#129](https://github.com/herdrdev/herdr-core/pull/129) · [#125](https://github.com/herdrdev/herdr-core/pull/125) |
 
 <!--
 ## Language
