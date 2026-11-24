@@ -1,6 +1,6 @@
 ## Open Source Contributions
 
-I contribute fixes for issues I encounter in the tools I use.
+I contribute fixes for issues I encounter in the tools I use, working with Claude Code and OpenAI Codex.
 
 | Project | Language | Contributions |
 | --- | --- | --- |
