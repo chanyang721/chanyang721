@@ -1,4 +1,4 @@
-[About me](https://chanyang721.github.io/en/)
+About [me](https://chanyang721.github.io/en/)
 
 ## Open Source Contributions
 
