@@ -1,11 +1,9 @@
+[About me](https://chanyang721.github.io/en/)
+
 ## Open Source Contributions
 
 - <img src="https://avatars.githubusercontent.com/u/9919?v=4&amp;s=48" width="20" height="20" alt="GitHub" /> [GitHub MCP Server](https://github.com/github/github-mcp-server/pulls?q=is%3Apr+is%3Amerged+author%3Achanyang721) · Go
 - <img src="https://avatars.githubusercontent.com/u/309108654?v=4&amp;s=48" width="20" height="20" alt="Herdr" /> [Herdr](https://github.com/search?q=org%3Aherdrdev+is%3Apr+is%3Amerged+author%3Achanyang721&type=pullrequests) · Rust
-
-## Portfolio
-
-- [chanyang721.github.io](https://chanyang721.github.io/en/)
 
 <!--
 ## Language
