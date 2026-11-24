@@ -1,11 +1,13 @@
 ## Open Source Contributions
 
-- **GitHub MCP Server** · Go — [1 merged PR](https://github.com/github/github-mcp-server/pulls?q=is%3Apr+is%3Amerged+author%3Achanyang721)
+I contribute fixes for issues I encounter in the tools I use, working with Claude Code and OpenAI Codex.
+
+- <img src="https://avatars.githubusercontent.com/u/9919?v=4&amp;s=48" width="20" height="20" alt="GitHub" /> **[GitHub MCP Server](https://github.com/github/github-mcp-server)** · Go — [1 merged PR](https://github.com/github/github-mcp-server/pulls?q=is%3Apr+is%3Amerged+author%3Achanyang721)
   - Complete pull request content paths from the PR head instead of the default branch [#3860](https://github.com/github/github-mcp-server/pull/3860)
-- **Herdr App** · Rust — [4 merged PRs](https://github.com/herdrdev/herdr-app/pulls?q=is%3Apr+is%3Amerged+author%3Achanyang721)
+- <img src="https://avatars.githubusercontent.com/u/309108654?v=4&amp;s=48" width="20" height="20" alt="Herdr" /> **[Herdr App](https://github.com/herdrdev/herdr-app)** · Rust, TypeScript — [4 merged PRs](https://github.com/herdrdev/herdr-app/pulls?q=is%3Apr+is%3Amerged+author%3Achanyang721)
   - Move a window's mods to a new script VM before repeated reloads exhaust its memory [#760](https://github.com/herdrdev/herdr-app/pull/760)
   - Reject malformed target IDs instead of closing the active tab's running work [#297](https://github.com/herdrdev/herdr-app/pull/297)
-- **Herdr Core** · Rust — [3 merged PRs](https://github.com/herdrdev/herdr-core/pulls?q=is%3Apr+is%3Amerged+author%3Achanyang721)
+- <img src="https://avatars.githubusercontent.com/u/309108654?v=4&amp;s=48" width="20" height="20" alt="Herdr" /> **[Herdr Core](https://github.com/herdrdev/herdr-core)** · Rust — [3 merged PRs](https://github.com/herdrdev/herdr-core/pulls?q=is%3Apr+is%3Amerged+author%3Achanyang721)
   - Stop a retry loop that pinned a CPU core while a parent terminal waited for its new shell [#124](https://github.com/herdrdev/herdr-core/pull/124)
   - Decode UTF-8 characters split across output chunks in `hc wait --output` [#129](https://github.com/herdrdev/herdr-core/pull/129)
 
