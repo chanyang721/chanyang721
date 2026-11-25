@@ -1,4 +1,4 @@
-[me](https://chanyang721.github.io/en/) · Open source [contributions](https://chanyang721.github.io/en/#open-source)
+[me](https://chanyang721.github.io/en/) · [projects](https://chanyang721.github.io/en/#work) · [blog](https://chanyang721.notion.site/49344f3b2baf40989aa67165e060305e) · [contributors](https://chanyang721.github.io/en/#open-source)
 
 <!--
 ## Language
