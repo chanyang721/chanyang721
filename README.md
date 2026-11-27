@@ -1,4 +1,11 @@
-[me](https://chanyang721.github.io/en/) · [projects](https://chanyang721.github.io/en/#work) · [blog](https://chanyang721.notion.site/49344f3b2baf40989aa67165e060305e) · [contributors](https://chanyang721.github.io/en/#open-source)
+<p align="center">
+  <a href="https://chanyang721.github.io/en/">me</a> ·
+  <a href="https://chanyang721.github.io/en/#work">projects</a> ·
+  <a href="https://chanyang721.notion.site/49344f3b2baf40989aa67165e060305e">blog</a> ·
+  <a href="https://chanyang721.github.io/en/#open-source">contributions</a>
+</p>
+
+Currently focused on [Herdr Theme](https://github.com/chanyang721/herdr-theme) — a workspace UI for coding agents.
 
 <!--
 ## Language
