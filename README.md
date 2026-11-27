@@ -5,7 +5,9 @@
   <a href="https://chanyang721.github.io/en/#open-source">contributions</a>
 </p>
 
-Currently focused on [Herdr Theme](https://github.com/chanyang721/herdr-theme) — a workspace UI for coding agents.
+<p align="center">
+  focus on <a href="https://github.com/chanyang721/herdr-theme">herdr-theme</a>
+</p>
 
 <!--
 ## Language
