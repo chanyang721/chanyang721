@@ -6,7 +6,7 @@
 </p>
 
 <p align="center">
-  focus on <a href="https://github.com/chanyang721/herdr-theme">herdr-theme</a>
+  focus on <a href="https://chanyang721.github.io/en/projects/herdr-theme/">AI agent workflows</a>
 </p>
 
 <!--
